@@ -99,9 +99,10 @@ const Header = () => {
         
         <Link to="/support">Support</Link>
         <Link to="/offers">Offers</Link>
-        <Link to="/visa" target="_blank">
-      YatraBusiness
-    </Link>
+        <Link to="/prime"> YatraBusiness</Link>
+        {/* <Link to="/" >
+     
+    </Link> */}
         {/* <Link to="/offers"> Yatra New</Link> */}
       </div>
           </div>
