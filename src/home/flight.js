@@ -138,8 +138,8 @@ const FlightsPage = () => {
             </Col>
         </Form>
     <Col>
-        <Button style={{ width: '10rem' }}  variant="primary"><Link className="nav-link" to="/sreach"> </Link>check your Rufund</Button>{' '}<Button  href='/sreach' style={{ width: '10rem' }} variant="danger">
-        {/* <Link to="/sreach">Check Flights</Link> */}   Check Flights 
+        <Button style={{ width: '10rem' }}  variant="primary"><Link className="nav-link" to="/sreach"> </Link>check your Rufund</Button>{' '}<Button   style={{ width: '10rem' }} variant="danger">
+        <Link style={{color:"white" }}  to="/sreach">Check Flights</Link>   
 </Button>{' '}</Col>
       </Card.Body>
     </Card>

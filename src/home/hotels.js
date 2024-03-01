@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Card, Button, Form, Row, Col, Accordion } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
 
 const HotelPage = () => {
   const [travellersList, setTravellersList] = useState([{ adults: 1, children: 0, infants: 0 }]);
@@ -116,8 +116,9 @@ const HotelPage = () => {
               <Button style={{ width: '10rem' }} onClick={handleAdd} variant="primary">
                 Add Rooms
               </Button>{' '}
-              <Button href='appp' style={{ width: '10rem' }} variant="danger">
-                Search Hotels
+              <Button  style={{ width: '10rem' }} variant="danger">
+              <Link style={{color:"white" }}  to="/appp"> Search Hotels</Link> 
+               
               </Button>{' '}
             </Col>
           </Card.Body>

@@ -47,67 +47,67 @@ const Appp = () => {
                 {/* Add your 12 dropdown buttons here */}
                 <Accordion >
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header>HOTEL NAME</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header>deals</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header>PRICE FOR 2 NIGHTS</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header>STAR RATING</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          
         </Accordion.Body>
       </Accordion.Item><Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header>User Rating</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header>SHOW HOTELS with</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          
         </Accordion.Body>
       </Accordion.Item><Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header>MAIN LOCALITIES</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header>ALL LOCALITIES</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          
         </Accordion.Body>
       </Accordion.Item><Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header>PROPERTY TYPE</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Header>HOTEL CHAINS</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          

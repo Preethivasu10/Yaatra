@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Button, Form, Row, Col,  } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
 
 const HolidaysPage = () => {
   // const [travellersList, setTravellersList] = useState([{ adults: 1, children: 0, infants: 0 }]);
@@ -62,7 +62,7 @@ const HolidaysPage = () => {
               <Col>
              
              <Button href='apppp' style={{ width: '10rem' }} variant="danger">
-               Search 
+              <Link style={{color:"white" }}  to="/appp"> Search </Link> 
              </Button>{' '}
            </Col>
               
