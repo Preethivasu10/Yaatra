@@ -1,16 +1,11 @@
 import React from 'react';
-import { Navbar, Nav, Container, Row, Col, Image, Form, FormControl, NavDropdown,Accordion ,Button,InputGroup} from 'react-bootstrap';
+import { Navbar, Nav, Container, Row, Col, Image, FormControl,Accordion ,Button,InputGroup} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlane, faHotel, faUmbrella, faBus, faTaxi, faPassport } from '@fortawesome/free-solid-svg-icons';
 import './support.css';
-import { faCar, faTrain, faCoins, faArrowsAltH, faStreetView, faMoneyBillWave, faSubway } from '@fortawesome/free-solid-svg-icons';
-import { 
-  faPhone, 
-  faClipboardCheck, 
-  faEnvelope, 
-  faFileContract 
-} from '@fortawesome/free-solid-svg-icons';
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaGoogle, FaCcVisa, FaCcMastercard, FaCcAmex, FaCcRupay } from 'react-icons/fa';
+import { faCar, faArrowsAltH,  faMoneyBillWave, faSubway } from '@fortawesome/free-solid-svg-icons';
+
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaGoogle,  } from 'react-icons/fa';
 
 import { Link } from 'react-router-dom';
 

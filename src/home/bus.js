@@ -1,37 +1,37 @@
-import React, { useState } from 'react';
-import { Card, Button, Form, Row, Col, Accordion } from 'react-bootstrap';
+import React from 'react';
+import { Card, Button, Form, Row, Col, } from 'react-bootstrap';
 
 
 const BusPage = () => {
-  const [travellersList, setTravellersList] = useState([{ adults: 1, children: 0, infants: 0 }]);
+  // const [travellersList, setTravellersList] = useState([{ adults: 1, children: 0, infants: 0 }]);
 
-  const handleAdd = () => {
-    setTravellersList((prevList) => [...prevList, { adults: 1, children: 0, infants: 0 }]);
-  };
+  // const handleAdd = () => {
+  //   setTravellersList((prevList) => [...prevList, { adults: 1, children: 0, infants: 0 }]);
+  // };
 
-  const handleRemove = (index) => {
-    setTravellersList((prevList) => {
-      const newList = [...prevList];
-      newList.splice(index, 1);
-      return newList;
-    });
-  };
+  // const handleRemove = (index) => {
+  //   setTravellersList((prevList) => {
+  //     const newList = [...prevList];
+  //     newList.splice(index, 1);
+  //     return newList;
+  //   });
+  // };
 
-  const handleAddTraveller = (index, type) => {
-    setTravellersList((prevList) => {
-      const newList = [...prevList];
-      newList[index][type] = newList[index][type] + 1 > 0 ? newList[index][type] + 1 : 0;
-      return newList;
-    });
-  };
+  // const handleAddTraveller = (index, type) => {
+  //   setTravellersList((prevList) => {
+  //     const newList = [...prevList];
+  //     newList[index][type] = newList[index][type] + 1 > 0 ? newList[index][type] + 1 : 0;
+  //     return newList;
+  //   });
+  // };
 
-  const handleRemoveTraveller = (index, type) => {
-    setTravellersList((prevList) => {
-      const newList = [...prevList];
-      newList[index][type] = newList[index][type] > 0 ? newList[index][type] - 1 : 0;
-      return newList;
-    });
-  };
+  // const handleRemoveTraveller = (index, type) => {
+  //   setTravellersList((prevList) => {
+  //     const newList = [...prevList];
+  //     newList[index][type] = newList[index][type] > 0 ? newList[index][type] - 1 : 0;
+  //     return newList;
+  //   });
+  // };
 
   return (
     <div className='fight'>

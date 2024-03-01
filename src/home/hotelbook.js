@@ -1,9 +1,8 @@
 // Import necessary libraries
 import React from 'react';
-import { Navbar, Container, Row, Col, Card, Button, DropdownButton, Dropdown ,Nav} from 'react-bootstrap';
+import { Navbar, Container, Row, Col, Card, Nav} from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
 import './hotelbooking.css';
-import { MDBCard, MDBRow, MDBCol, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText } from 'mdb-react-ui-kit';
 
 // Main App component
 const Appp = () => {

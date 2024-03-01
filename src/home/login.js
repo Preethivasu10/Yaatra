@@ -9,7 +9,7 @@ import {
   MDBCheckbox
 }
 from 'mdb-react-ui-kit';
-import { Navbar, Nav, Container, Card, Button, Row, Col,Image ,ListGroup} from 'react-bootstrap';
+import { Navbar,  Container} from 'react-bootstrap';
 import './login.css';
 
 function LoginPage() {
@@ -37,9 +37,13 @@ function LoginPage() {
 
       <MDBRow>
 
-        <MDBCol col='10' md='6'>
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image" />
-        </MDBCol>
+      <MDBCol col='10' md='6'>
+  <img
+    src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+    className="img-fluid"
+    alt="Flight illustration"
+  />
+</MDBCol>
 
         <MDBCol col='4' md='6'>
 

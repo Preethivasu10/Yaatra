@@ -5,7 +5,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import TabContent from 'react-bootstrap/TabContent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { DropdownButton, Dropdown } from 'react-bootstrap';
-import { Card, Button, Form, Row, Col, Accordion } from 'react-bootstrap';
+import { Card, Button, Form, Row, Col } from 'react-bootstrap';
 
 function EmailContent() {
   return (

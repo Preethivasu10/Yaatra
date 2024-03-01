@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
-import { Row, Col,Image,Card ,Button, CardText, CardSubtitle} from 'react-bootstrap';
+import { Row, Col,Card , CardText, CardSubtitle} from 'react-bootstrap';
 import './booking.css';
 function CollapsibleExample() {
   return (
@@ -45,14 +45,14 @@ function CollapsibleExample() {
         </Navbar>
         <div>
         <Row>
-            <Col><h2>Review Your Booking</h2></Col>
-            <Col><Link>Charging flights</Link></Col>
-            <Col><h2>Fare Details</h2></Col>
-            <Col><Link>Charging flights</Link></Col>
+        <Col style={{position:"absolute",left:"100px" }}><h2>Review Your Booking</h2></Col>
+            <Col style={{position:"absolute",left:"1000px" }}><Link>Charging flights</Link></Col>
+            
+            <Col style={{position:"absolute",left:"800px" }}><Link> Cancellation Charges </Link></Col>
         </Row>
         </div>
         <div>
-        <Container  >
+        <Container  style={{position:"absolute",top:"150px",left:"100px"}} >
         <Card className="text mb-2 bg-light" style={{ width: '65rem', height: '320px', fontSize:"small" }}>
           <Card.Body>
        

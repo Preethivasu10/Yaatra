@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Card, Row, Col,Image,Dropdown,NavDropdown,Pagination} from 'react-bootstrap';
+import { Navbar, Nav, Card, Row, Col,Image,NavDropdown} from 'react-bootstrap';
 
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';

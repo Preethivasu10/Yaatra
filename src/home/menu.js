@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlane, faHotel, faUmbrella, faBus, faTaxi, faPassport } from '@fortawesome/free-solid-svg-icons';
+import { faPlane, faHotel, faUmbrella,  faTaxi, faPassport } from '@fortawesome/free-solid-svg-icons';
 import './menu.css'; // Import your CSS file
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import { Row } from 'react-bootstrap';
@@ -89,7 +89,7 @@ const Header = () => {
         </Dropdown.Toggle>
         <Dropdown.Menu>
           <Dropdown.Item href="/login">login</Dropdown.Item>
-          <Dropdown.Item href="#link-2">Sign Up</Dropdown.Item>
+          <Dropdown.Item href="/login">Sign Up</Dropdown.Item>
           
           
         </Dropdown.Menu>
@@ -99,7 +99,7 @@ const Header = () => {
         
         <Link to="/support">Support</Link>
         <Link to="/offers">Offers</Link>
-        <Link to="https://www.yatra.com/business/b2e.htm" target="_blank">
+        <Link to="/visa" target="_blank">
       YatraBusiness
     </Link>
         {/* <Link to="/offers"> Yatra New</Link> */}

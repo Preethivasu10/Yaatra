@@ -1,6 +1,6 @@
 import React from 'react';
-import { Navbar, Nav, Container, Card, Button, Row, Col,Image ,ListGroup} from 'react-bootstrap';
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaGoogle, FaCcVisa, FaCcMastercard, FaCcAmex, FaCcRupay } from 'react-icons/fa';
+import { Navbar, Nav, Container, Card, Button, Row, Col,Image} from 'react-bootstrap';
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaGoogle } from 'react-icons/fa';
 
 import './prime.css';
 import { Link } from 'react-router-dom';

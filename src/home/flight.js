@@ -1,6 +1,6 @@
 // FlightsPage.js
 import React, { useState } from 'react';
-import { Card, Button, Form, Row, Col,Accordion,AccordionItem} from 'react-bootstrap';
+import { Card, Button, Form, Row, Col,Accordion} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 // import './FlightsPage.css'; // Import your CSS file

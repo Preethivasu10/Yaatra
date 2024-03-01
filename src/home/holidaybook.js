@@ -1,61 +1,61 @@
 import React from 'react';
-import { Navbar, Nav, Card, Row, Col,Image,Dropdown,NavDropdown,Pagination} from 'react-bootstrap';
+import { Navbar, Nav, Card, Row, Col,Image,NavDropdown} from 'react-bootstrap';
 
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 
 import './sreach.css';
-import Slider from 'react-slick';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const SreachPagee = () => {
-    const slidesData = [
-        { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
-        { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
-        { day: 'Wed', date: '2', month: 'Mar', price: '$110' },
-        { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
-        { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
-        { day: 'Wed', date: '2', month: 'Mar', price: '$110' },
-        { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
-        { day: 'Wed', date: '2', month: 'Mar', price: '$110' }, 
-        { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
-        { day: 'Wed', date: '2', month: 'Mar', price: '$110' }, 
-        { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
-        { day: 'Wed', date: '2', month: 'Mar', price: '$110' },
-        { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
-        { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
-        { day: 'Wed', date: '2', month: 'Mar', price: '$110' },
-        { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
-        { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
-        { day: 'Wed', date: '2', month: 'Mar', price: '$110' }, { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
-        { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
-        { day: 'Wed', date: '2', month: 'Mar', price: '$110' }, { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
-        { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
-        { day: 'Wed', date: '2', month: 'Mar', price: '$110' }, { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
-        { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
-        { day: 'Wed', date: '2', month: 'Mar', price: '$110' },
-        // Add more slides as needed
-      ];
+    // const slidesData = [
+    //     { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
+    //     { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
+    //     { day: 'Wed', date: '2', month: 'Mar', price: '$110' },
+    //     { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
+    //     { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
+    //     { day: 'Wed', date: '2', month: 'Mar', price: '$110' },
+    //     { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
+    //     { day: 'Wed', date: '2', month: 'Mar', price: '$110' }, 
+    //     { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
+    //     { day: 'Wed', date: '2', month: 'Mar', price: '$110' }, 
+    //     { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
+    //     { day: 'Wed', date: '2', month: 'Mar', price: '$110' },
+    //     { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
+    //     { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
+    //     { day: 'Wed', date: '2', month: 'Mar', price: '$110' },
+    //     { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
+    //     { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
+    //     { day: 'Wed', date: '2', month: 'Mar', price: '$110' }, { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
+    //     { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
+    //     { day: 'Wed', date: '2', month: 'Mar', price: '$110' }, { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
+    //     { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
+    //     { day: 'Wed', date: '2', month: 'Mar', price: '$110' }, { day: 'Mon', date: '28', month: 'Feb', price: '$100' },
+    //     { day: 'Tue', date: '1', month: 'Mar', price: '$120' },
+    //     { day: 'Wed', date: '2', month: 'Mar', price: '$110' },
+    //     // Add more slides as needed
+    //   ];
       
-      const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 8, // Set the number of items you want to show at once
-        slidesToScroll: 1,
+    //   const settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 8, // Set the number of items you want to show at once
+    //     slidesToScroll: 1,
         
-      };
-      const cardData = [
-        {
-          title: '5.30pm',
-          text: 'With supporting text below as a natural lead-in to additional content.',
-          footer: '2 days ago',
-        },
-        // Add similar objects for the other cards
-        // ...
-      ];
+    //   };
+    //   const cardData = [
+    //     {
+    //       title: '5.30pm',
+    //       text: 'With supporting text below as a natural lead-in to additional content.',
+    //       footer: '2 days ago',
+    //     },
+    //     // Add similar objects for the other cards
+    //     // ...
+    //   ];
     return (
         <div>
             <Navbar bg="light" expand="lg">
